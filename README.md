@@ -148,11 +148,11 @@ graph TD
 *Smart receipt processing: Upload foto struk untuk ekstrak data otomatis*
 
 ### 🔍 AI Review System - Data Validation
-![AI Review System](foto%20untuk%20readme/4.png)
+![AI Review System](foto%20untuk%20readme/5.png)
 *AI extraction results with manual review and editing capabilities*
 
 ### 📊 Category Management - Organized Finance
-![Category Management](foto%20untuk%20readme/5.png)
+![Category Management](foto%20untuk%20readme/4.png)
 *Comprehensive category management with income/expense validation*
 
 ### 📱 Mobile-First Design - Responsive UI
