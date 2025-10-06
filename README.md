@@ -100,6 +100,7 @@ graph TD
 ![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC34A?style=flat-square&logo=alpine.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=FFD62E)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Blade](https://img.shields.io/badge/Blade_Templates-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 
 ### AI & APIs
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
@@ -205,13 +206,17 @@ npm install
 cp .env.example .env
 php artisan key:generate
 
-# Database setup
+# Database setup (SQLite untuk development)
 touch database/database.sqlite
 php artisan migrate
 php artisan db:seed # Optional: sample data
 
-# Build assets
-npm run dev
+# Create storage symlink
+php artisan storage:link
+
+# Build assets dengan Vite
+npm run build  # untuk production
+# atau npm run dev untuk development dengan HMR
 
 # Start development server
 php artisan serve
@@ -233,6 +238,20 @@ APP_NAME="Finance Tracker"
 APP_ENV=local
 APP_DEBUG=true
 ```
+
+### 📷 **Screenshots Available**
+
+All application screenshots are available in the [`foto untuk readme`](foto%20untuk%20readme/) folder:
+
+- `1.png` - Dashboard overview dengan analytics
+- `2.png` - Transaction management interface
+- `3.png` - AI receipt upload feature
+- `4.png` - AI review dan validation system  
+- `5.png` - Category management system
+- `6.png` - Mobile responsive design
+- `7.png` - Dark mode implementation
+
+---
 
 ## 🧪 Testing & Quality Assurance
 
@@ -327,20 +346,21 @@ composer format
 
 ```yaml
 # Automated workflow includes:
-✅ Code quality checks
-✅ Automated testing
-✅ Security scanning
+✅ PHP code quality checks (PHPStan, Pint)
+✅ Pest PHP automated testing
+✅ Laravel security scanning
 ✅ Performance monitoring
+✅ Asset compilation (Vite)
 ✅ Automated deployment
-✅ Rollback capabilities
+✅ Database migration handling
 ```
 
 ### 🌐 Deployment Options
 
-- **🔗 Shared Hosting** - Traditional web hosting
-- **☁️ Cloud Platforms** - AWS, Digital Ocean, Google Cloud
-- **📦 Containerization** - Docker support
-- **⚡ Static Deployment** - JAMstack approach
+- **🔗 Shared Hosting** - Traditional PHP hosting dengan cPanel
+- **☁️ Cloud Platforms** - AWS Elastic Beanstalk, Digital Ocean Droplets
+- **📦 Containerization** - Docker dengan PHP-FPM dan Nginx
+- **⚡ VPS Deployment** - Ubuntu/CentOS dengan LEMP stack
 
 ---
 
@@ -356,6 +376,7 @@ composer format
 | **Mobile Score** | 98/100 | Outstanding UX |
 | **Security Score** | A+ | Enterprise-grade security |
 | **AI Accuracy** | 95%+ | Smart receipt processing |
+| **Framework** | Laravel 12 | Modern PHP development |
 
 </div>
 
@@ -417,6 +438,19 @@ function dashboardData() {
 }
 ```
 
+```blade
+{{-- Blade template dengan Alpine.js integration --}}
+<div x-data="dashboardData()" 
+     x-init="$watch('darkMode', val => val ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark'))">
+    
+    <button @click="toggleTheme()" 
+            class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+        <span x-show="!darkMode">🌞</span>
+        <span x-show="darkMode">🌙</span>
+    </button>
+</div>
+```
+
 ---
 
 ## 🤝 Contributing & Collaboration
@@ -445,9 +479,9 @@ I welcome contributions and collaboration! This project demonstrates my ability 
 
 ### 🌐 Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sabilillah_Ramaniya_Widodo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sabilillah-ramaniya-widodo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sabilillah_Ramaniya_Widodo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sblrm)
 [![Portfolio](https://img.shields.io/badge/Portfolio-sblrm.dev-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://sblrm.dev)
-[![Email](https://img.shields.io/badge/Email-sabilillah.widodo@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabilillah.widodo@gmail.com)
+[![Email](https://img.shields.io/badge/Email-sabilillah.widodo@binus.ac.id-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sabilillah.widodo@binus.ac.id)
 [![GitHub](https://img.shields.io/badge/GitHub-sblrm-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sblrm)
 
 ### 📱 Professional Availability
