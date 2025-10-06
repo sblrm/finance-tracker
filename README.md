@@ -137,31 +137,31 @@ graph TD
 <div align="center">
 
 ### � Dashboard Overview - Financial Analytics
-![Dashboard Overview](foto%20untuk%20readme/2.png)
+![Dashboard Overview](public/images/2.png)
 *Modern dashboard with comprehensive financial analytics and dark/light theme support*
 
 ### 💰 Transaction Management - Smart Categories
-![Transaction Management](foto%20untuk%20readme/3.png)
+![Transaction Management](public/images/3.png)
 *Intuitive transaction management with intelligent category system*
 
 ### 🤖 AI Receipt Processing - Upload & Extract
-![AI Receipt Upload](foto%20untuk%20readme/1.png)
+![AI Receipt Upload](public/images/1.png)
 *Smart receipt processing: Upload foto struk untuk ekstrak data otomatis*
 
 ### 🔍 AI Review System - Data Validation
-![AI Review System](foto%20untuk%20readme/5.png)
+![AI Review System](public/images/5.png)
 *AI extraction results with manual review and editing capabilities*
 
 ### 📊 Category Management - Organized Finance
-![Category Management](foto%20untuk%20readme/4.png)
+![Category Management](public/images/4.png)
 *Comprehensive category management with income/expense validation*
 
 ### 📱 Mobile-First Design - Responsive UI
-![Mobile Responsive](foto%20untuk%20readme/6.png)
+![Mobile Responsive](public/images/6.png)
 *Fully responsive design optimized for all device sizes*
 
 ### 🎨 Dark Mode Support - Modern Interface
-![Dark Mode](foto%20untuk%20readme/7.png)
+![Dark Mode](public/images/7.png)
 *Beautiful dark mode with smooth transitions and user preference persistence*
 
 ---
