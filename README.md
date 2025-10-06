@@ -136,15 +136,15 @@ graph TD
 <div align="center">
 
 ### � Dashboard Overview - Financial Analytics
-![Dashboard Overview](foto%20untuk%20readme/1.png)
+![Dashboard Overview](foto%20untuk%20readme/2.png)
 *Modern dashboard with comprehensive financial analytics and dark/light theme support*
 
 ### 💰 Transaction Management - Smart Categories
-![Transaction Management](foto%20untuk%20readme/2.png)
+![Transaction Management](foto%20untuk%20readme/3.png)
 *Intuitive transaction management with intelligent category system*
 
 ### 🤖 AI Receipt Processing - Upload & Extract
-![AI Receipt Upload](foto%20untuk%20readme/3.png)
+![AI Receipt Upload](foto%20untuk%20readme/1.png)
 *Smart receipt processing: Upload foto struk untuk ekstrak data otomatis*
 
 ### 🔍 AI Review System - Data Validation
