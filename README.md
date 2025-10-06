@@ -386,7 +386,7 @@ composer format
 
 ### 🖼️ **UI/UX Design Principles**
 
-Based on the screenshots in [`foto untuk readme`](foto%20untuk%20readme/), this application demonstrates:
+This application demonstrates:
 
 #### **Visual Hierarchy & Layout**
 - **Consistent spacing** using Tailwind's spacing scale
