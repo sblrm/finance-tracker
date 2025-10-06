@@ -234,20 +234,6 @@ APP_ENV=local
 APP_DEBUG=true
 ```
 
-### 📷 **Screenshots Available**
-
-All application screenshots are available in the [`foto untuk readme`](foto%20untuk%20readme/) folder:
-
-- `1.png` - Dashboard overview dengan analytics
-- `2.png` - Transaction management interface
-- `3.png` - AI receipt upload feature
-- `4.png` - AI review dan validation system  
-- `5.png` - Category management system
-- `6.png` - Mobile responsive design
-- `7.png` - Dark mode implementation
-
----
-
 ## 🧪 Testing & Quality Assurance
 
 ```bash
@@ -323,23 +309,6 @@ composer format
 </div>
 
 ---
-
-## 🎓 Learning & Development Journey
-
-<div align="center">
-
-### 📚 Skills Developed Through This Project
-
-| Category | Technologies | Proficiency |
-|----------|-------------|-------------|
-| **Backend Development** | Laravel, PHP, MySQL, SQLite | ⭐⭐⭐⭐⭐ |
-| **Frontend Development** | Tailwind CSS, Alpine.js, JavaScript | ⭐⭐⭐⭐⭐ |
-| **AI Integration** | Google Gemini API, Image Processing | ⭐⭐⭐⭐ |
-| **Testing** | Pest PHP, Unit Testing, Integration Testing | ⭐⭐⭐⭐ |
-| **DevOps** | GitHub Actions, CI/CD, Deployment | ⭐⭐⭐⭐ |
-| **UI/UX Design** | Responsive Design, User Experience | ⭐⭐⭐⭐ |
-
-</div>
 
 ### 🎯 Problem-Solving Approach
 
