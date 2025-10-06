@@ -1,4 +1,4 @@
-# 💰 Finance Tracker - AI-Powered Personal Finance Management
+# 💰 Finance Tracker - AI-Powered Personal Finance Management (Group Project with [Ryan Hanif Dwihandoyo (Rayen142)](https://github.com/Rayen142))
 
 <div align="center">
 
