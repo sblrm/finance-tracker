@@ -309,26 +309,6 @@ composer format
 
 ---
 
-## 📊 GitHub Stats & Activity
-
-<div align="center">
-
-### 📈 Development Stats
-[![Sabilillah's GitHub stats](https://github-readme-stats.vercel.app/api?username=sblrm&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-### 💻 Most Used Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sblrm&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-### 🔥 Contribution Streak
-[![GitHub Streak](https://streak-stats.demolab.com?user=sblrm&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-### 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=sblrm&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ### 🎯 Problem-Solving Approach
 
 1. **Research & Analysis** - Understanding user needs and market research
